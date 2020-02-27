@@ -16,7 +16,7 @@ export const Input = styled.TextInput`
     height: 40px;
     width: 90%;
     border-radius: 7px;
-    background-color: #e4e5e6;
+    background-color: ${props => props.theme.colors.tertiary};
     margin-left: 0px;
     margin-top: 8px;
     padding-left: 40px;

@@ -1,21 +1,21 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-    background-color: #efeff2;
+    background-color: ${props => props.theme.colors.tertiary};
     height: 180px;
-    border-top-color: #aeaeb0;
+    border-top-color: ${props => props.theme.colors.quarterly};
     border-top-width: 0.5px;
     border-bottom-width: 0.5px;
-    border-bottom-color: #aeaeb0;
+    border-bottom-color: ${props => props.theme.colors.quarterly};
 `;
 
 export const UserStatus = styled.View`
     height: 88px;
-    background-color: #fff;
-    border-top-color: #aeaeb0;
+    background-color: ${props => props.theme.colors.secundary};
+    border-top-color: ${props => props.theme.colors.quarterly};
     border-top-width: 0.5px;
     border-bottom-width: 0.5px;
-    border-bottom-color: #aeaeb0;
+    border-bottom-color: ${props => props.theme.colors.quarterly};
     margin-top: 40px;
 `;
 export const UserStatusBody = styled.View`
@@ -27,7 +27,7 @@ export const UserStatusBody = styled.View`
 `;
 
 export const HeaderText = styled.Text`
-    color: #737375;
+    color: ${props => props.theme.colors.text};
     margin-top: 30px;
     margin-left: 20px;
 `;
@@ -36,7 +36,7 @@ export const ContainerIcon = styled.View`
     height: 40px;
     width:  40px;
     border-radius: 20px;
-    background-color: #efeff2;
+    background-color: ${props => props.theme.colors.tertiary};
     justify-content: center;
     align-items: center;
     margin-left: 15px;
@@ -45,7 +45,7 @@ export const ContainerIcon = styled.View`
 export const PlusCircleContainer = styled.View`
     margin-left: 35px;
     margin-top: 30px;
-    background-color: #fff;
+    background-color: ${props => props.theme.colors.secundary};
     width: 20px;
     height: 20px;
     border-radius: 10px;
