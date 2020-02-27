@@ -6,7 +6,7 @@ import temporaryDataa from './temporaryData';
 import HeaderItems from './internalComponents/Header';
 import Item from './internalComponents/Item';
 import { Container, Title } from './styles';
-import Search from '../../componentes/Search';
+import Search from '$root/componentes/Search';
 
 const ContainerAnimated = Animated.createAnimatedComponent(Container);
 

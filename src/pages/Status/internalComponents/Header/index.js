@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 import Icon from "@expo/vector-icons/FontAwesome";
 
-import StatusAvatar from '../../../../componentes/StatusAvatar';
+import StatusAvatar from '$root/componentes/StatusAvatar';
 
 import { Container, UserStatus, UserStatusBody, ContainerIcon, HeaderText, PlusCircleContainer, TextContainer } from './styles';
 

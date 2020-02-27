@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { View, StyleSheet,Image } from 'react-native';
+import { View, StyleSheet, Image } from 'react-native';
 import Svg, {
     Path, Rect,
   } from 'react-native-svg';
   
 
-// import { Container } from './styles';
+import { Avatar } from './styles';
 
 export default function StatusAvatar({array,image}) {
-  
   const [pd,setPd] = useState("")
   const [path,setPath] = useState([])
+
+  const N = () => { return (Math.floor(Math.random() * 65536) - 32768)};
 
   function myArc(cx, cy, radius, max){       
     var d = " M "+ (cx + radius) + " " + cy;
@@ -32,7 +33,7 @@ export default function StatusAvatar({array,image}) {
       let rot = 270;
       await array.map(i=>{
         arr.push(
-          <View style={{position:'absolute'}}> 
+          <View key={N()} style={{position:'absolute'}}> 
             <Svg width="70" height="70">
               <Path d={pd} fill="none" stroke={i[1]==0?"#007dff":"#b7b7b7"} strokeWidth={2} transform={{ rotation: rot, originX: 35, originY: 35 }} />
             </Svg>
@@ -51,17 +52,7 @@ export default function StatusAvatar({array,image}) {
   return (
     <>
       {path}
-      <Image source={{uri:image}} style={styles.avatar}/>
+      <Avatar source={{uri:image}}/>
     </>
   );
 }
-
-const styles = StyleSheet.create({
-  avatar:{
-    height:54,
-    width:54,
-    borderRadius:27,
-    position:'absolute',
-    marginLeft:8
-  }
-})

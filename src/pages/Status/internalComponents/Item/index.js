@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import StatusAvatar from '../../../../componentes/StatusAvatar';
+import StatusAvatar from '$root/componentes/StatusAvatar';
 
 import { Container } from './styles';
 
