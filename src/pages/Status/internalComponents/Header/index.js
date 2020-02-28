@@ -15,7 +15,7 @@ export default function Header() {
     <Container>
         <UserStatus>
           <UserStatusBody>
-            <StatusAvatar array={[[0,0]]} image='https://avatars2.githubusercontent.com/u/27819268?s=460&v=4'/>
+            <StatusAvatar array={[[0,0]]} image='https://avatars1.githubusercontent.com/u/57706806?s=60&v=4'/>
             <PlusCircleContainer>
               <Icon name="plus-circle" size={20} color={themeContext.primary}/>
             </PlusCircleContainer>

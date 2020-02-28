@@ -12,7 +12,7 @@ export default function Item({ item }) {
     <Container>
         <StatusAvatar array={item.stories} image={item.image} />
         
-        <View style={{marginLeft:70, height:80,justifyContent:'center', width:"100%",borderBottomColor:themeContext.quarterly,borderBottomWidth:0.3}}>
+        <View style={{marginLeft:70, height:80,justifyContent:'center', width:"100%",borderBottomColor:themeContext.text,borderBottomWidth:0.3}}>
           <Text style={{color: themeContext.text, fontWeight:'bold'}}>{item.name}</Text>
           <Text style={{color: themeContext.text}}>agora mesmo</Text>
         </View>

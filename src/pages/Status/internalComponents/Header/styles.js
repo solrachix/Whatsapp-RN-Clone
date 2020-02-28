@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
     background-color: ${props => props.theme.colors.tertiary};
-    height: 180px;
+    height: 115px;
     border-top-color: ${props => props.theme.colors.quarterly};
     border-top-width: 0.5px;
     border-bottom-width: 0.5px;
@@ -14,9 +14,7 @@ export const UserStatus = styled.View`
     background-color: ${props => props.theme.colors.secundary};
     border-top-color: ${props => props.theme.colors.quarterly};
     border-top-width: 0.5px;
-    border-bottom-width: 0.5px;
-    border-bottom-color: ${props => props.theme.colors.quarterly};
-    margin-top: 40px;
+    margin-top: 0px;
 `;
 export const UserStatusBody = styled.View`
     flex-direction: row;
@@ -27,9 +25,12 @@ export const UserStatusBody = styled.View`
 `;
 
 export const HeaderText = styled.Text`
+    height: 15px;
+    font-size: 12px;
     color: ${props => props.theme.colors.text};
-    margin-top: 30px;
-    margin-left: 20px;
+    /* margin-top: 30px; */
+    margin-top: 5px;
+    margin-left: 20px; 
 `;
 
 export const ContainerIcon = styled.View`

@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-import { View,StyleSheet,Text } from 'react-native';
+import Icon from "@expo/vector-icons/FontAwesome";
+import { View, StyleSheet, Text } from 'react-native';
 
 // import { Container } from './styles';
 
-export default function IconNotify({size,color,icon,qtd}) {
+export default function IconNotify({size,color,iconName,qtd}) {
 
     const [qtdNoty, setQtdNoty] = useState(0);
     useEffect(()=>{
@@ -13,7 +13,7 @@ export default function IconNotify({size,color,icon,qtd}) {
 
     return (
         <View>
-            <FontAwesomeIcon size={size} color={color} icon={ icon } />
+            <Icon name={iconName} size={size} color={color}/>
             {qtdNoty > 0 ? 
             <View style={styles.noty}>
                 <Text style={styles.textNoty}>{qtdNoty}</Text>
