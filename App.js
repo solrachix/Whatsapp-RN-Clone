@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppRegistry } from 'react-native';
+import { AppRegistry, StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 
 import Routes from '$root/routes';
@@ -13,6 +13,7 @@ export default function App() {
   console.log("theme", theme);
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar hidden />
       <Routes/> 
     </ThemeProvider>   
   );

@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { FlatList } from 'react-native';
 import Animated from 'react-native-reanimated';
 
+import moment from "moment";
+
 import temporaryDataa from './temporaryData';
 import HeaderItems from './internalComponents/Header';
-import Item from './internalComponents/Item';
+import Item from '$root/componentes/Item';
 import { Container, Title } from './styles';
 import Search from '$root/componentes/Search';
 
@@ -18,6 +20,7 @@ export default function Status() {
     function handleSubmit(value){
         console.log(value)
     }
+    
     return (      
         <ContainerAnimated style={
             {
@@ -37,7 +40,18 @@ export default function Status() {
 
             <FlatList 
                 data={stories}
-                renderItem={({item}) => (<Item key={item.id} item={item}/>)}
+                renderItem={({item}) => (
+                    <Item key={item.id}
+                        border={true}
+                        borderArray={item.stories}
+                        avatar={item.image}
+                        titleContainer={{
+                            firstTitle: item.name,
+                            secundTitle: ""
+                        }}
+                        spotlight={[false, 0, moment().format('DD-MM-YYYY')]}
+                    />
+                )}
                 ListHeaderComponent={<HeaderItems/>}
             />
         </ContainerAnimated>

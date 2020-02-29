@@ -6,4 +6,5 @@ export const Avatar = styled.Image`
     border-radius: 27px;
     position: absolute;
     margin-left: 8px;
+    box-shadow: 2px 2px 2px ${props => props.theme.colors.text}
 `;

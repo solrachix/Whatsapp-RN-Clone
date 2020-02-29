@@ -7,85 +7,85 @@ export default [
     {
         id:'1',
         name:'Edson',
-        stories:[[1,1],[2,0],[3,0],[4,0],[5,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [true, 10, "Lorem Ipsum"]
     },
     {
         id:'2',
         name:'Elon',
-        stories:[[12,1],[1231,0],[123,0],[1231,0],[123,0],[1231,0],[123,0],],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [true, 10, "Lorem Ipsum"]
     },
     {
         id:'3',
         name:'Kobayashi',
-        stories:[[12,1],[1231,0],[123,0],[1231,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'4',
         name:'Mary',
-        stories:[[12,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'5',
         name:'Han',
-        stories:[[12,1],[1231,0],[123,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'6',
         name:'Alice',
-        stories:[[12,1],[1231,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'7',
         name:'Philip',
-        stories:[[12,1],[1231,0],[1231,0],[1231,0],[123,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'8',
         name:'Yrie',
-        stories:[[12,1],[1231,0],[123,0],[1231,0],[123,0],[1231,0],[123,0],],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'9',
         name:'Stephen Trevor',
-        stories:[[12,1],[1231,0],[123,0],[1231,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'10',
         name:'Michael Lensi',
-        stories:[[12,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'11',
         name:'Kara Denver',
-        stories:[[12,1],[1231,0],[123,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     },
     {
         id:'12',
         name:'Jhon dick',
-        stories:[[12,1],[1231,0]],
         image:'https://i.pravatar.cc/300',
-        lastStatus: "13:17"
+        lastMessageTime: "09:00",
+        message: [false, 10, "Lorem Ipsum"]
     }
 ];

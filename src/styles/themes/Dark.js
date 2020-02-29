@@ -2,11 +2,6 @@ export default {
     title: 'Dark',
   
     colors: {
-        Background: '#282a36',
-        CurrentLine: '#44475a',
-        Selection: '#44475a',   
-        Foreground: '#f8f8f2',
-        Comment: '#6272a4',
 
         primary: '#007dff',
         secundary: '#282a36',

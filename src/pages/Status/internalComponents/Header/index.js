@@ -21,8 +21,8 @@ export default function Header() {
             </PlusCircleContainer>
 
             <TextContainer>
-              <Text style={{fontWeight:'bold'}}>Meu Status</Text>
-              <Text style={{color:'grey'}}>Adicionar ao meu status</Text>
+              <Text style={{fontWeight:'bold', color: themeContext.text}}>Meu Status</Text>
+              <Text style={{color: themeContext.text}}>Adicionar ao meu status</Text>
             </TextContainer>
             <ContainerIcon>
               <Icon name="camera" size={20} color={themeContext.primary}/>

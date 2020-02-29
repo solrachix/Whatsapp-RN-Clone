@@ -7,7 +7,7 @@ import Svg, {
 
 import { Avatar } from './styles';
 
-export default function StatusAvatar({array,image}) {
+export default function StatusAvatar({border, array, image}) {
   const [pd,setPd] = useState("")
   const [path,setPath] = useState([])
 
@@ -46,7 +46,7 @@ export default function StatusAvatar({array,image}) {
   }
 
   useEffect(() => {
-    init(array);
+    border ? init(array) : null;
   }, [array,pd]);
 
   return (

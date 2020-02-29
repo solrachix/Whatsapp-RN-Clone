@@ -20,6 +20,7 @@ export const Input = styled.TextInput`
     margin-left: 0px;
     margin-top: 8px;
     padding-left: 40px;
+    color: ${props => props.theme.colors.text};
 `;
 
 export const Button = styled.TouchableOpacity`
