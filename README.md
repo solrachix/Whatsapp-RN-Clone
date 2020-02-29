@@ -1,9 +1,9 @@
-## Whatsapp Clone
+## Whatsapp Clone 
 <p align="center">
 Este projeto tem como objetivo os estudos e a prática.
 </p>
 
-![Template](https://github.com/solrachix/Nubank-RN-Clone/blob/master/assets/Template.png)
+![Template](https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/assets/Template.jpg)
 <p align="center">
 <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
     <img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
