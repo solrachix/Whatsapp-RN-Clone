@@ -34,9 +34,9 @@ export default function Status() {
                         avatar={item.image}
                         titleContainer={{
                             firstTitle: item.name,
-                            secundTitle: item.lastMessageTime
+                            secundTitle: item.lastCallTime
                         }}
-                        spotlight={item.message}
+                        spotlight={item.Call}
                     />
                 )}
             />

@@ -11,6 +11,6 @@ export const Title = styled.Text`
     font-size: 30px;
     margin-left: 20px;
     color: ${props => props.theme.colors.text};
-    border-bottom-width: 0.5px;
+    border-bottom-width: 1px;
     border-bottom-color: ${props => props.theme.colors.text};
 `;

@@ -12,7 +12,8 @@ export default function Item(
     borderArray = [],
     avatar,
     titleContainer,
-    spotlight = false
+    spotlight = false,
+    CustomSearchlight = false
   }) {
   
   const themeContext = useContext(ThemeContext).colors;
@@ -24,7 +25,9 @@ export default function Item(
           <TitleContainer>
             <FirstTitle>{titleContainer.firstTitle}</FirstTitle>
             <SecundTitle 
-              style={{color: spotlight[0] ? themeContext.primary: themeContext.text}}
+              style={{color: CustomSearchlight 
+                ? null 
+                : spotlight[0] ? themeContext.primary: themeContext.text}}
             >
               {titleContainer.secundTitle}
             </SecundTitle>
