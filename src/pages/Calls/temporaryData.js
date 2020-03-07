@@ -3,6 +3,7 @@
   // cada item do array de stories é um array de duas posições, sendo a primeira
   // o id de cada story e a segunda posição 1 ou 0 para visto ou não visto
   // para teste estou usando o pravatar para gerar imagens aleatórias para os usuários
+  
 export default [
     {
         id:'1',
