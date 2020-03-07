@@ -22,7 +22,7 @@ export default function Status() {
         <ContainerAnimated style={
             {
                 transform:[
-                { translateY: marginHeader  }
+                    { translateY: marginHeader  }
                 ]
             }
         }>
