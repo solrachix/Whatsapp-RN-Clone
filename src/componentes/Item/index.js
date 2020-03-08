@@ -13,7 +13,8 @@ export default function Item(
     avatar,
     titleContainer,
     spotlight = false,
-    CustomSearchlight = false
+    CustomSearchlight = false,
+    ...props
   }) {
   const themeContext = useContext(ThemeContext).colors;
 
@@ -27,7 +28,7 @@ export default function Item(
                     : themeContext.text
   };
   return (
-    <Container>
+    <Container {...props}>
         <StatusAvatar {...border} array={borderArray} image={avatar} />
         
         <Body>

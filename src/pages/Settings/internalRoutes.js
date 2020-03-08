@@ -16,6 +16,10 @@ export default function Routes({ title }){
             <Navigator
                 initialRouteName="Home"
                 // headerMode="none" 
+                screenOptions={{
+                    // headerTintColor: 'white',
+                    headerStyle: { backgroundColor: themeContext.secundary }
+                }}
             >
 
                 <Screen name="Home" component={Home}
