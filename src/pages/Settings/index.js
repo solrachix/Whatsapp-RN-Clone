@@ -1,12 +1,27 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React, { useState } from 'react';
+import Animated from 'react-native-reanimated';
 
-import { Container } from './styles';
+import { Container, Title } from './styles';
+import Routes from './internalRoutes.js';
 
-export default function Settings() {
-  return (
-    <Container style={{flex:1,alignItems:"center",justifyContent:"center"}}>
-        <Text>Settings</Text>
-    </Container>
-  );
+const ContainerAnimated = Animated.createAnimatedComponent(Container);
+
+export default function Status() {
+    const [marginHeader] = useState(new Animated.Value(0)); 
+    const [showText,setShowtext] = useState(true);
+
+
+    return (      
+        <ContainerAnimated style={{
+            transform:[
+                { translateY: marginHeader  }
+            ]
+        }}>
+
+          <Title>{showText?"Settings":null}</Title>
+
+          <Routes />
+
+        </ContainerAnimated>
+    );
 }
