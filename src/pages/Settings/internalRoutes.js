@@ -9,7 +9,7 @@ const { Screen, Navigator } = createStackNavigator();
 import Home from './internalPages/home';
 import Teste from './internalPages/Teste';
 
-export default function Routes(){
+export default function Routes({ title }){
     const themeContext = useContext(ThemeContext).colors;
     return (
         <NavigationContainer independent={true}>
@@ -19,7 +19,11 @@ export default function Routes(){
             >
 
                 <Screen name="Home" component={Home}
-                    options={{title: '', gestureEnabled: false}}/>
+                    options={{
+                        title: title,
+                        gestureEnabled: false
+                    }}
+                />
 
                 <Screen name="Teste" component={Teste}
                     options={{title: 'Teste', gestureEnabled: false}}/>

@@ -18,9 +18,9 @@ export default function Status() {
             ]
         }}>
 
-          <Title>{showText?"Settings":null}</Title>
-
-          <Routes />
+          <Routes title={
+              <Title>{showText?"Settings":null}</Title>
+          } />
 
         </ContainerAnimated>
     );
