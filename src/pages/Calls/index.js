@@ -4,6 +4,8 @@ import Animated from 'react-native-reanimated';
 
 import temporaryData from './temporaryData';
 
+import Icon from "@expo/vector-icons/Foundation";
+
 import Item from '$root/componentes/Item';
 
 import Header from './internalComponents/Header';
@@ -36,7 +38,11 @@ export default function Status() {
                             firstTitle: item.name,
                             secundTitle: item.lastCallTime
                         }}
-                        spotlight={item.Call}
+                        CustomSearchlight={{
+                            color: item.call.color,
+                            status: item.call.status,
+                            statusIcon: <Icon name="telephone" size={20} color="#999"/>
+                        }}
                     />
                 )}
             />

@@ -4,7 +4,7 @@ import { ThemeContext } from 'styled-components';
 
 import StatusAvatar from '$root/componentes/StatusAvatar';
 
-import { Container, Body, TitleContainer, FirstTitle, SecundTitle, Spotlight } from './styles';
+import { Container, Body, TitleContainer, FirstTitle, SecundTitle, Spotlight, Icon } from './styles';
 
 export default function Item(
   { 
@@ -15,26 +15,47 @@ export default function Item(
     spotlight = false,
     CustomSearchlight = false
   }) {
-  
   const themeContext = useContext(ThemeContext).colors;
+
+  const color = {
+    color: CustomSearchlight 
+                ? CustomSearchlight.color == "default" 
+                  ? themeContext.text 
+                  : CustomSearchlight.color
+                : spotlight[0] 
+                    ? themeContext.primary 
+                    : themeContext.text
+  };
   return (
     <Container>
         <StatusAvatar {...border} array={borderArray} image={avatar} />
         
         <Body>
           <TitleContainer>
-            <FirstTitle>{titleContainer.firstTitle}</FirstTitle>
-            <SecundTitle 
-              style={{color: CustomSearchlight 
-                ? null 
-                : spotlight[0] ? themeContext.primary: themeContext.text}}
-            >
+            <FirstTitle style={color}>{titleContainer.firstTitle}</FirstTitle>
+            <SecundTitle style={color}>
               {titleContainer.secundTitle}
             </SecundTitle>
           </TitleContainer>
 
           <TitleContainer>
-            <FirstTitle numberOfLines={1}>{spotlight[2]}</FirstTitle>
+            { 
+              CustomSearchlight
+                && 
+                  <Icon>{CustomSearchlight.statusIcon}</Icon>
+            }
+            
+            <TitleContainer style={{width: "92%"}}>
+              <FirstTitle numberOfLines={1}>              
+                {
+                  spotlight 
+                  ? spotlight[2] 
+                  : CustomSearchlight 
+                    ? CustomSearchlight.status
+                    : null
+                }
+              </FirstTitle>
+            </TitleContainer>
             { 
               spotlight[0] 
                 && 

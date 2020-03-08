@@ -26,6 +26,7 @@ export const TitleContainer = styled.View`
     flex-flow: column wrap;
     align-content: space-between;
     
+    /* background: rgba(255, 200, 0, 0.8); */
     padding-right: 15px;
 `;
 
@@ -42,6 +43,7 @@ export const SecundTitle = styled.Text`
 
 export const Spotlight = styled.Text`
     min-width: 25px;
+    width: 25px;
     max-width: 40px;
     height: 25px;
     padding: 0px;
@@ -56,4 +58,9 @@ export const Spotlight = styled.Text`
     font-weight: bold;
     text-align: center;
     line-height: 25px;
+`;
+
+
+export const Icon = styled.View`
+    padding-right: 3px;
 `;
