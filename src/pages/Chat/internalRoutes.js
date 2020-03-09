@@ -9,6 +9,8 @@ const { Screen, Navigator } = createStackNavigator();
 import Home from './internalPages/home';
 import ConversationField from './internalPages/ConversationField';
 
+import HeaderLeft from "./internalComponents/HeaderLeft";
+
 export default function Routes({ title }){
     const themeContext = useContext(ThemeContext).colors;
 
@@ -37,7 +39,8 @@ export default function Routes({ title }){
 
                 <Screen name="ConversationField" component={ConversationField}
                     options={{
-                        title: 'ConversationField',
+                        headerTitle: 'ConversationField',
+                        headerLeft: (props) => <HeaderLeft {...props}/>,
                         gestureEnabled: false,
                     }}
                 />

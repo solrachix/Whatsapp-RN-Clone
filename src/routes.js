@@ -64,7 +64,7 @@ export default function Routes(){
                     options={{
                         tabBarLabel: 'Conversas',
                         tabBarIcon: ({ color, size }) => (
-                            <IconNotify size={size} color={color} iconName="comments" />
+                            <IconNotify size={size} qtd={2} color={color} iconName="comments" />
                         ),
                 }}/>
                 <Screen name="Settings" component={Settings}

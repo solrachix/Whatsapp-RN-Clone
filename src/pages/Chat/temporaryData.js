@@ -9,7 +9,29 @@ export default [
         name:'Edson',
         image:'https://i.pravatar.cc/300',
         lastMessageTime: "09:00",
-        message: [true, 10, "Lorem Ipsum"]
+        message: [true, 10, "Lorem Ipsum"],
+        latestMessages: [
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: false,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+        ]
     },
     {
         id:'2',

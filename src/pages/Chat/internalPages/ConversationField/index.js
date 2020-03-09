@@ -1,14 +1,36 @@
-import React from 'react';
-import { View } from 'react-native';
+import React, { useState, useEffect } from 'react';
 
-// import { Container } from './styles';
+import HeaderCF from '../../internalComponents/HeaderCF';
+import HeaderRight from '../../internalComponents/HeaderRight';
 
-export default function ConversationField({ navigation }) {
-  // const userId = navigation.getParam('userId');
-  console.log(navigation)
-  navigation.setOptions({ title: 'Carlos!' })
+import temporaryDataa from '../../temporaryData';
+import { Container } from './styles';
 
+export default function ConversationField({ route, navigation }) {
+  const userId = route.params.userId;
+  const [friends, setFriends] = useState(temporaryDataa);
+  const [friend, setFriend] = useState({});
+
+  useEffect(()=>{
+    GetFriend()
+  }, []);
+
+  function GetFriend(){
+    const responce = friends.filter(({ id }) => {
+      return id === userId;
+    });
+
+    setFriend(responce[0]);    
+  }
+  
+  navigation.setOptions({ 
+    headerTitle: () => <HeaderCF name={friend ? friend.name : "loading..."}/>,
+    headerRight: (props) => <HeaderRight avatar={friend ? friend.image: null } {...props}/>,
+  });
+  
   return (
-    <View />
+    <Container>
+
+    </Container>
   );
 }
