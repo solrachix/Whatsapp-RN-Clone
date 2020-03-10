@@ -1,13 +1,4 @@
 ## Whatsapp Clone
-> Projeto em desenvolvimento
-
-<p align="center">
-	Este projeto tem como objetivo os estudos e a prática.
-</p>
-
-<p align="center">
-<img src="https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/assets/Template.png?raw=true"/>
-</p>
 
 <p align="center">
 <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
@@ -24,12 +15,22 @@
   </a>
 </p>
 
+> Projeto em desenvolvimento
+
+<p align="center">
+	Este projeto tem como objetivo os estudos e a prática.
+</p>
+
+<p align="center">
+<img src="https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/assets/Template.png?raw=true"/>
+</p>
+
 ___________
 
 ### Abas
 |  Nome |  Feito  | Parcialmente feito  | Não feito  |
 | ------------ | ------------ | ------------ | ------------ |
-| React Native | :heavy_check_mark:  |   |
+| React Native || :heavy_check_mark:  |   |
 | Calls		 || :heavy_check_mark:  |   |
 | Camera || :heavy_check_mark:  |   |
 | Chats     || :heavy_check_mark:  |   |
@@ -37,8 +38,52 @@ ___________
 
 ___________
 
+### Temas
 
-### Feito Com:`Tecnologias do React Native`
+Projeto desenvolvido com suporte a criação facil de novos temas customizados.
+
+<details><summary>Instruções de criação</summary>
+Na pasta aonde deve ser colocado os temas <br/>
+> https://github.com/solrachix/Whatsapp-RN-Clone/tree/master/src/styles/themes
+
+``` jsx
+export default {
+    title: 'Dark',
+  
+    colors: {
+        primary: '#007dff',
+        secundary: '#282a36',
+        tertiary: '#44475a',
+        quarterly: '#aeaeb0',
+   
+        background: '#101010',
+        text: '#6272a4',
+        placeholder: '#959698',
+
+        Cyan: '#8be9fd',
+        Green: '#50fa7b',
+        Orange: '#ffb86c',
+        Pink: '#ff79c6',
+        Purple: '#bd93f9',
+        Red: '#ff5555',
+        Yellow: '#f1fa8c',
+    }
+};
+```
+
+
+</details>
+
+<details><summary>Temas Padrôes </summary>
+Pasta aonde deve ser encontrado os temas <br/>
+> https://github.com/solrachix/Whatsapp-RN-Clone/tree/master/src/styles/themes
+
+
+</details>
+___________
+
+### Feito Com:
+ >   Tecnologias do React Native!
 
 
 <strong style="color: #007dff" >React Native</strong> - Um framework para o desenvolvimento de aplicações mobile usando Javascript + React;
