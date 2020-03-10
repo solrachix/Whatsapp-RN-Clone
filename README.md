@@ -1,9 +1,12 @@
-## Whatsapp Clone ( Projeto em desenvolvimento )
+## Whatsapp Clone
+> Projeto em desenvolvimento
+
 <p align="center">
 	Este projeto tem como objetivo os estudos e a prática.
+</p>
 
+<p align="center">
 <img src="https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/assets/Template.png?raw=true"/>
-
 </p>
 
 <p align="center">
@@ -26,22 +29,30 @@ ___________
 ### Abas
 |  Nome |  Feito  | Parcialmente feito  | Não feito  |
 | ------------ | ------------ | ------------ | ------------ |
-| Status	|| :fa-check:  |   |
-| Calls		 || :fa-check:  |   |
-| Camera || :fa-check:  |   |
-| Chats     || :fa-check:  |   |
-| Ajustes  || :fa-check:  |   |
-
+| React Native | :heavy_check_mark:  |   |
+| Calls		 || :heavy_check_mark:  |   |
+| Camera || :heavy_check_mark:  |   |
+| Chats     || :heavy_check_mark:  |   |
+| Ajustes  || :heavy_check_mark:  |   |
 
 ___________
 
-### Feito Com
-<strong>React Native</strong> - Um framework para o desenvolvimento de aplicações mobile usando Javascript + React;
-<strong>React Native Gesture Handler</strong> - Uma API que permite a manipulação de gestos e toques no React Native;
-<strong>React Native Reanimated</strong> - O React Native Reanimated fornece uma abstração mais abrangente e de baixo nível para que a API da biblioteca Animated seja construída sobre ela e, portanto, permite uma flexibilidade muito maior, especialmente quando se trata de interações baseadas em gestos;
-<strong>React Navigation</strong> - Roteamento e navegação para aplicativos React Native;
-<strong>Styled Components</strong> - Permite escrever código CSS real ao estilo de seus componentes;
-<strong>Moment</strong> - Analise, valide, manipule e exiba datas e horas em JavaScript.
+
+### Feito Com:`Tecnologias do React Native`
+
+
+<strong style="color: #007dff" >React Native</strong> - Um framework para o desenvolvimento de aplicações mobile usando Javascript + React;
+<br/>
+<strong style="color: #007dff" >React Native Gesture Handler</strong> - Uma API que permite a manipulação de gestos e toques no React Native;
+<br/>
+<strong style="color: #007dff" >React Native Reanimated</strong> - O React Native Reanimated fornece uma abstração mais abrangente e de baixo nível para que a API da biblioteca Animated seja construída sobre ela e, portanto, permite uma flexibilidade muito maior, especialmente quando se trata de interações baseadas em gestos;
+<br/>
+<strong style="color: #007dff" >React Navigation</strong> - Roteamento e navegação para aplicativos React Native;
+<br/>
+<strong style="color: #007dff" >Styled Components</strong> - Permite escrever código CSS real ao estilo de seus componentes;
+<br/>
+<strong style="color: #007dff" >Moment</strong> - Analise, valide, manipule e exiba datas e horas em JavaScript.
+
 ___________
 
 
