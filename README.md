@@ -1,9 +1,10 @@
-## Whatsapp Clone 
+## Whatsapp Clone ( Projeto em desenvolvimento )
 <p align="center">
-Este projeto tem como objetivo os estudos e a prática.
+	Este projeto tem como objetivo os estudos e a prática.
+
+![Template](https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/assets/Template.png?raw=true)
 </p>
 
-![Template](https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/assets/Template.jpg)
 <p align="center">
 <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
     <img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
@@ -19,6 +20,16 @@ Este projeto tem como objetivo os estudos e a prática.
   </a>
 </p>
 
+[========]
+
+### Abas
+|  Nome |  Feito  | Parcialmente feito  | Não feito  |
+| ------------ | ------------ | ------------ | ------------ |
+|   |   |   |   |
+|   |   |   |   |
+
+
+[========]
 ### Feito Com
 <strong>React Native</strong> - Um framework para o desenvolvimento de aplicações mobile usando Javascript + React;
 <strong>React Native Gesture Handler</strong> - Uma API que permite a manipulação de gestos e toques no React Native;
@@ -27,6 +38,7 @@ Este projeto tem como objetivo os estudos e a prática.
 <strong>Styled Components</strong> - Permite escrever código CSS real ao estilo de seus componentes;
 <strong>Moment</strong> - Analise, valide, manipule e exiba datas e horas em JavaScript.
 
+[========]
 
 ## instalação
 
