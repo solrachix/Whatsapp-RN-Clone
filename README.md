@@ -2,7 +2,8 @@
 <p align="center">
 	Este projeto tem como objetivo os estudos e a prática.
 
-![Template](https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/assets/Template.png?raw=true)
+<img src="https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/assets/Template.png?raw=true"/>
+
 </p>
 
 <p align="center">
@@ -20,16 +21,20 @@
   </a>
 </p>
 
-[========]
+___________
 
 ### Abas
 |  Nome |  Feito  | Parcialmente feito  | Não feito  |
 | ------------ | ------------ | ------------ | ------------ |
-|   |   |   |   |
-|   |   |   |   |
+| Status	|| :fa-check:  |   |
+| Calls		 || :fa-check:  |   |
+| Camera || :fa-check:  |   |
+| Chats     || :fa-check:  |   |
+| Ajustes  || :fa-check:  |   |
 
 
-[========]
+___________
+
 ### Feito Com
 <strong>React Native</strong> - Um framework para o desenvolvimento de aplicações mobile usando Javascript + React;
 <strong>React Native Gesture Handler</strong> - Uma API que permite a manipulação de gestos e toques no React Native;
@@ -37,12 +42,12 @@
 <strong>React Navigation</strong> - Roteamento e navegação para aplicativos React Native;
 <strong>Styled Components</strong> - Permite escrever código CSS real ao estilo de seus componentes;
 <strong>Moment</strong> - Analise, valide, manipule e exiba datas e horas em JavaScript.
+___________
 
-[========]
 
-## instalação
+## Instalação
 
-#### Pré-requisitos -> 
+#### Pré-requisitos:
 	Ter o NodeJS instalado, um gerenciar de pacotes NPM ou YARN e o Expo CLI configurado;
 #### Clone o repositório: 
 	git clone https://github.com/solrachix/Nubank-RN-Clone.git
