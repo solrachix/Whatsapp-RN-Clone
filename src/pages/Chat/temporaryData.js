@@ -14,62 +14,62 @@ export default [
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:30"
             },
             {
                 my: false,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:31"
             },
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:32"
             },
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:32"
             },
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:32"
             },
             {
                 my: false,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:33"
             },
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:34"
             },
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:34"
             },
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:34"
             },
             {
                 my: false,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:35"
             },
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:40"
             },
             {
                 my: true,
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                sendDate: "09/03/2020"
+                sendDate: "2013-02-08 09:40"
             },
         ]
     },

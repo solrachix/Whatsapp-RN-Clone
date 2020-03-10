@@ -1,5 +1,10 @@
 import React from 'react';
+
 import Icon from '@expo/vector-icons/MaterialCommunityIcons';
+
+import moment from 'moment';
+
+const GetHours = time => moment(time, "YYYY-MM-DD HH:mm").format("HH:mm");
 
 import { 
     MyMessageContainer,
@@ -11,13 +16,13 @@ import {
     TimeText
  } from './styles';
 
-function MyMessage() {
+function MyMessage({ MessageData }) {
   return (
     <MyMessageContainer>
         <MyMessageBody>
-            <MessageText>aaaa</MessageText>
+            <MessageText>{ MessageData.text }</MessageText>
             <TimeAndDisplay>                
-                <TimeText>bb:bb</TimeText>
+                <TimeText>{ GetHours(MessageData.sendDate) }</TimeText>
                 <Icon name="check" /* check-all */ size={15} color="#fff"/>
             </TimeAndDisplay>
         </MyMessageBody>
@@ -25,13 +30,13 @@ function MyMessage() {
   );
 }
 
-function OthersMessage() {
+function OthersMessage({ MessageData }) {
     return (
       <OthersMessageContainer>
           <OthersMessageBody>
-            <MessageText>aaaaaaaaa</MessageText>
+            <MessageText>{ MessageData.text }</MessageText>
             <TimeAndDisplay>                
-                <TimeText>bb:bb</TimeText>
+                <TimeText>{ GetHours(MessageData.sendDate) }</TimeText>
             </TimeAndDisplay>
           </OthersMessageBody>
       </OthersMessageContainer>
@@ -42,6 +47,6 @@ export default function Bubble({ my, ...props}){
     console.log(props);
     
     return (
-        my == true ? <MyMessage {...props} /> : <OthersMessage {...OthersMessage} />
+        my == true ? <MyMessage {...props} /> : <OthersMessage {...props} />
     )
 }
