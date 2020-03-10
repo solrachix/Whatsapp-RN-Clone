@@ -6,7 +6,7 @@ import Routes from '$root/routes';
 import {name as appName} from './app.json';
 
 import usePersistedState from '$root/utils/usePersistedState';
-import Light from '$root/styles/themes/Light';
+import Light from '$root/styles/themes/Dark';
 
 export default function App() {
   const [theme, setTheme] = usePersistedState('theme', Light);

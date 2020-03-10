@@ -31,6 +31,46 @@ export default [
                 text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 sendDate: "09/03/2020"
             },
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: false,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: false,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
+            {
+                my: true,
+                text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                sendDate: "09/03/2020"
+            },
         ]
     },
     {

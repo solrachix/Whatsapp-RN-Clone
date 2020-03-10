@@ -20,3 +20,6 @@ export const Image = styled.Image`
 
 `;
 
+export const Button = styled.TouchableOpacity`
+`;
+
