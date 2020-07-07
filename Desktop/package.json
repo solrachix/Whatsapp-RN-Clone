@@ -21,7 +21,7 @@
   "devDependencies": {
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.10.7",
-    "electron": "^8.2.0",
+    "electron": "^8.2.4",
     "electron-builder": "^22.4.1",
     "next": "^9.3.2",
     "nextron": "^5.14.5",
