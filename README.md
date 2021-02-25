@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/solrachix/Whatsapp-RN-Clone/tree/master/Mobile/assets/Template.png?raw=true"/>
+	<img src="https://github.com/solrachix/Whatsapp-RN-Clone/blob/master/Mobile/assets/Template.png?raw=true" />
 </p>
 
 ___________
