@@ -23,7 +23,7 @@
     "babel-plugin-styled-components": "^1.10.7",
     "electron": "^9.4.0",
     "electron-builder": "^22.4.1",
-    "next": "^9.3.2",
+    "next": "^11.1.0",
     "nextron": "^5.14.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
